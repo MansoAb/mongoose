@@ -3,7 +3,7 @@ const express = require("express");
 
 const app = express();
 app.use(express.json());
-app.use(require("./routes/students.routes"));
+app.use(require("./routes/students.route"));
 const port = 3000;
 mongoose
   .connect("mongodb+srv://Mansur:1954@cluster0.xyb0huh.mongodb.net/test", {
