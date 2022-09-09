@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const { controllers } = require("../controllers/controllers");
+const { controllers } = require("../controllers/students.controllers");
 
 router.get("/students", controllers.for_get);
 router.post("/students", controllers.for_post);
